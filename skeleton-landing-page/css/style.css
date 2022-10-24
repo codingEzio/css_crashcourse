@@ -1,5 +1,26 @@
 
+body {
+    font-family: 'Source Sans Pro', Verdana, Geneva, Tahoma, sans-serif
+}
+
 .logo {
     font-weight: bolder;
     padding: 5px;
+}
+
+.masthead {
+    background: url("../images/masthead.png") no-repeat center;
+
+    height: 180px;
+    background-size: cover;
+}
+
+.rewardingContent {
+    margin-top: 10px;
+}
+
+.rewardingImg {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
 }
