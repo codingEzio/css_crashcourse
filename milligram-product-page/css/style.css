@@ -1,11 +1,37 @@
+/* Header */
+
 .contactArea {
-    background-color: #666;
-    color: #fff;
-    text-align: right;
+  background-color: #666;
+  color: #fff;
+  text-align: right;
 }
 
 .contactColumn {
-    font-size: 12px;
-    display: inline-block;
-    margin-right: 10px;
+  font-size: 12px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Navigation */
+
+.logo {
+  text-align: left;
+}
+
+.logo img {
+    width: 20%;
+    margin: 5px 0 5px 5px;
+}
+
+.navigation {
+    background-color: #ffc400;
+    text-align: right;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.navigation a {
+    color: #000;
+    padding: 5px;
+    border: 2px solid #000;
 }
