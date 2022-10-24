@@ -15,7 +15,10 @@ body {
     background-size: cover;
 }
 
-.rewardingContent {
+.rewardingContent,
+.hiredContent,
+.workEfficiency,
+.getPaid {
     margin-top: 10px;
 }
 
