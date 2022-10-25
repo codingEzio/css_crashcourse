@@ -89,3 +89,30 @@ section.info h3,
 section.info h4 {
     color: orange;
 }
+
+/* Footer Area */
+
+footer {
+    color: #fff;
+    background-color: #666;
+    padding: 10px 0;
+}
+
+footer .logo img,
+footer .logo p {
+    margin-left: 10px;
+    display: block;
+}
+
+footer .logo p {
+    margin-bottom: 0;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer h6 {
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
