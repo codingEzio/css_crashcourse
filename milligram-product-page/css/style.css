@@ -82,3 +82,10 @@ ul.store-badges a {
     background-size: cover;
     background-position: 0 15px;
 }
+
+/* Content Area */
+
+section.info h3,
+section.info h4 {
+    color: orange;
+}
