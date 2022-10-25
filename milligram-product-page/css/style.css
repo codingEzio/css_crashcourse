@@ -35,3 +35,50 @@
     padding: 5px;
     border: 2px solid #000;
 }
+
+/* Banner */
+
+.mastHead {
+    height: 450px;
+    overflow: hidden;
+    background-color: #ffc400;
+    color: #000;
+}
+
+.mastHead h1,
+.mastHead h2,
+.mastHead h3,
+.mastHead h4,
+.mastHead h5,
+.mastHead h6 {
+    color: #000;
+}
+
+ul.store-badges {
+    list-style: none;
+}
+
+ul.store-badges li a ,
+ul.store-badges a {
+    display: inline-block;
+    background: black;
+    width: 245px;
+    height: 70px;
+    border-radius: 4px;
+}
+
+.store-badges a.store-iOS {
+    background-position: 0 0;
+}
+.store-badges a.store-Android {
+    background-position: 0 -70px;
+}
+.store-badges a.store-Windows-Phone {
+    background-position: 0 -140px;
+}
+
+.mastHeadImage {
+    background: url("../images/android_phone.png") no-repeat;
+    background-size: cover;
+    background-position: 0 15px;
+}
