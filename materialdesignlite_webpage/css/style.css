@@ -7,3 +7,7 @@ body {
 div {
   margin: 1em;
 }
+
+.mdl-navigation a {
+  color: white;
+}
