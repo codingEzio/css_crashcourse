@@ -306,3 +306,77 @@ img {
   background-color: #c51162;
   border-radius: 50%;
 }
+
+.contact-intro {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.contact-panel {
+  padding: 6em 4em;
+  margin: auto;
+
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.mdl-textfield {
+  display: block;
+  width: 100%;
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 800px) {
+  .subscribe-button {
+    float: right;
+  }
+}
+
+.address-panel {
+  background-color: #dbdef1;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.address-panel .material-icons {
+  position: relative;
+  display: inline-block;
+  top: 0.2em;
+
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+
+  background-color: #ff4081;
+  padding: 0.5em;
+  border-radius: 50%;
+}
+
+.mdl-mini-footer .mdl-mini-footer .mdl-logo,
+.mdl-mini-footer__link-list,
+.mdl-mini-footer__link-list a {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Utilities */
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
