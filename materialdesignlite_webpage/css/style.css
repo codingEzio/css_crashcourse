@@ -165,3 +165,54 @@ img {
   margin: 0.5em;
   border-radius: 50%;
 }
+
+/* Fullwidth Background section */
+
+.fullwidth-panel {
+  color: white;
+  background-color: rgba(156, 39, 176, 0.6);
+}
+
+.fullwidth-panel p {
+  max-width: 640px;
+  margin: auto;
+}
+
+.quote-panel {
+  background-position: center 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-image: linear-gradient(
+      rgba(63, 81, 181, 0.5),
+      rgba(63, 81, 181, 0.5)
+    ),
+    url('https://cdn.pixabay.com/photo/2020/09/20/07/24/iceland-5586225_1280.jpg');
+  background-image: -webkit-linear-gradient(
+      rgba(63, 81, 181, 0.5),
+      rgba(63, 81, 181, 0.5)
+    ),
+    url('https://cdn.pixabay.com/photo/2020/09/20/07/24/iceland-5586225_1280.jpg');
+
+  padding: 4em 2em 2em;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+
+  align-content: flex-start;
+  -ms-flex-line-pack: start;
+}
+
+@media screen and (min-width: 800px) {
+  .quote-panel {
+    background-position: center 0;
+    padding: 6em 2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .quote-panel {
+    background-position: center 8%;
+    padding: 10em 2em 8em;
+  }
+}
