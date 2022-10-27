@@ -1,13 +1,41 @@
 body {
-  padding: 10px 10px 10px 10px;
-
   font-weight: bold;
+  font-variant: small-caps;
 }
 
-div {
-  margin: 1em;
-}
-
-.mdl-navigation a {
+.mdl-layout__drawer-button,
+.mdl-layout__drawer-button i {
   color: white;
+}
+
+@media (max-width: 900px) {
+  .mdl-layout__drawer-button {
+    width: 100%;
+    margin: 0;
+    background-color: transparent;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.avatar {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto 2em;
+}
+
+.avatar-img {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.drawer-text {
+  padding: 1em;
+  text-align: center;
 }
