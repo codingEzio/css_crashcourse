@@ -1,6 +1,7 @@
 body {
   font-weight: bold;
-  font-variant: small-caps;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 .mdl-layout__drawer-button,
@@ -38,4 +39,129 @@ img {
 .drawer-text {
   padding: 1em;
   text-align: center;
+}
+
+.hero-section {
+  height: 100vh;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  background-color: rgba(121, 85, 72, 0.6);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(121, 85, 72, 0.3),
+      rgba(121, 85, 72, 0.3)
+    ),
+    url('https://cdn.pixabay.com/photo/2022/09/30/10/05/river-7489170_1280.jpg');
+  background-image: -webkit-linear-gradient(
+      rgba(121, 85, 72, 0.3),
+      rgba(121, 85, 72, 0.3)
+    ),
+    url('https://cdn.pixabay.com/photo/2022/09/30/10/05/river-7489170_1280.jpg');
+
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  margin: auto;
+}
+
+.hero-text {
+  color: white;
+  margin: auto;
+}
+@media screen and (max-width: 580px) {
+  .hero-text p {
+    white-space: pre-line;
+  }
+}
+
+.kitty-hero__text-button,
+.mdl-button--fab.kitty-hero__text-button {
+  position: absolute;
+
+  bottom: -28px;
+  left: 50%;
+
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+/* About Pic Intro and Cards */
+
+.intro-section,
+.cards-section {
+  max-width: 960px;
+}
+
+.intro-section,
+.mdl-grid.intro-section {
+  padding: 5em 2em 5em;
+}
+
+.about-kitty p {
+  max-width: 640px;
+  margin: auto;
+}
+
+.circle-container {
+  width: 100%;
+  min-height: 100px;
+
+  padding: 2em 0;
+
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+
+  align-items: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+}
+
+.circle-container .circle {
+  height: 16px;
+  width: 16px;
+
+  background-color: #c51162;
+
+  border-radius: 50%;
+  margin: 0 3px 9px;
+}
+
+.topics-container {
+  padding: 2em 0;
+}
+
+.topics-container .topic {
+  font-size: 20px;
+  margin: 0 2px 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .topics-container .topic {
+    margin-bottom: 0.5em;
+  }
+}
+
+.embedded-img {
+  max-width: 150px;
+  max-height: 150px;
+
+  margin: 0.5em;
+  border-radius: 50%;
 }
