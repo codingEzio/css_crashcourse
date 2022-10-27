@@ -216,3 +216,93 @@ img {
     padding: 10em 2em 8em;
   }
 }
+
+/* Cards in the Moments tab */
+
+.cards-section {
+  padding: 5em 0;
+}
+
+.mdl-card__title {
+  min-height: 300px;
+}
+
+.mdl-card__title > .mdl-card__title-text {
+  color: white;
+}
+
+.home-bringing-card .mdl-card__title {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url('https://cdn.pixabay.com/photo/2017/08/07/23/11/iceland-2608985_1280.jpg')
+      center / cover;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url('https://cdn.pixabay.com/photo/2017/08/07/23/11/iceland-2608985_1280.jpg')
+      center / cover;
+}
+
+.play-card .mdl-card__title {
+  background: url('https://cdn.pixabay.com/photo/2016/10/25/12/28/iceland-1768744_1280.jpg')
+    center / cover;
+}
+
+.image-card {
+  background: url('https://cdn.pixabay.com/photo/2014/10/07/13/48/mountain-477832_1280.jpg')
+    center / cover;
+}
+
+.image-card > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.image-card__title {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.litter-card .mdl-card__title {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url('https://cdn.pixabay.com/photo/2015/07/27/17/14/mountains-862870_1280.jpg')
+      center / cover;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url('https://cdn.pixabay.com/photo/2015/07/27/17/14/mountains-862870_1280.jpg')
+      center / cover;
+}
+
+.diet-card .mdl-card__title {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url('https://cdn.pixabay.com/photo/2015/04/23/22/01/mountains-736886_1280.jpg')
+      center / cover;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url('https://cdn.pixabay.com/photo/2015/04/23/22/01/mountains-736886_1280.jpg')
+      center / cover;
+}
+
+.card-small {
+  min-height: auto;
+}
+
+.card-small > .mdl-card__title {
+  color: rgba(0, 0, 0, 0.87);
+  height: auto;
+  min-height: auto;
+}
+
+.card-small .mdl-card__title-text {
+  font-size: 16px;
+}
+
+.card-small .mdl-card__title-text:before {
+  content: '';
+
+  display: inline-block;
+  margin-right: 0.5em;
+
+  width: 18px;
+  height: 18px;
+
+  background-color: #c51162;
+  border-radius: 50%;
+}
